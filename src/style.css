@@ -10,6 +10,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #4e46be;
   }
 
   .container {
@@ -31,3 +32,39 @@ body {
     padding: 0;
   }
   
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #4e46be;
+  color: white;
+  padding: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  color: #ff4500;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+
