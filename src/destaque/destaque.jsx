@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './destaque.css';
 
 export default function Home() {
   return (

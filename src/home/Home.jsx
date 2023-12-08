@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './home.css';
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
             <li><a href="#">Cadastre-se</a></li>
           </ul>
         </div>
-        <div className="main-content">
+        <div className="main-content">  
 
         </div>
       </div>

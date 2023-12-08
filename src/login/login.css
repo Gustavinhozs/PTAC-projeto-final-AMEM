@@ -1,0 +1,70 @@
+h1 {
+    text-align: center;
+    color: #09a6a3;
+    font-size: 300%;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fcf9d8;
+  }
+
+  .container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 25%;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    margin-top: 0;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #fcf9d8;
+  color: #09a6a3;
+  padding: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #09a6a3;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  color: #a75293;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+

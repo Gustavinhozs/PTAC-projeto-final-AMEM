@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    color: rgb(231, 15, 105);
+    color: #09a6a3;
     font-size: 300%;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
@@ -10,7 +10,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #4e46be;
+    background-color: #fcf9d8;
   }
 
   .container {
@@ -38,8 +38,8 @@ body {
 
 .sidebar {
   width: 200px;
-  background-color: #4e46be;
-  color: white;
+  background-color: #fcf9d8;
+  color: #09a6a3;
   padding: 10px;
 }
 
@@ -54,12 +54,12 @@ body {
 
 .sidebar a {
   text-decoration: none;
-  color: white;
+  color: #09a6a3;
   font-weight: bold;
 }
 
 .sidebar a:hover {
-  color: #ff4500;
+  color: #a75293;
 }
 
 .main-content {
