@@ -1,5 +1,6 @@
 import React from 'react';
 import './home.css';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -7,11 +8,9 @@ export default function Home() {
       <h1>PxTube</h1>
       <div className="container">
         <div className="sidebar">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Destaque</a></li>
-            <li><a href="#">Cadastre-se</a></li>
-          </ul>
+      <Link to = "/">Home</Link><br></br>
+      <Link to = "/destaque">Destaque</Link><br></br>
+      <Link to = "/cadastrar">Cadastrar vídeo</Link>
         </div>
         <div className="main-content">  
 
